@@ -5,8 +5,6 @@ const router = express.Router();
 const controller = require("../controllers/productController");
 const { cacheMiddleware } = require("../middleware/cache");
 
-// GET routes use caching middleware
-
 router.get(
   "/products",
   cacheMiddleware,
@@ -18,8 +16,6 @@ router.get(
   cacheMiddleware,
   controller.getProductById
 );
-
-// Modification routes
 
 router.post(
   "/products",
