@@ -1,0 +1,15 @@
+{
+  "name": "asd-workshop",
+  "version": "1.0.0",
+  "description": "Express Caching Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
